@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Scroll Animation</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./accets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="head">
+          <div class="logo">
+            <a href="#"
+              ><img src="./accets/media/image/logo.png" alt="Logo"
+            /></a>
+          </div>
+          <div class="nav-bar">
+            <nav>
+              <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#service">Service</a></li>
+                <li><a href="#review">Review</a></li>
+                <li><a href="#project">Project</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="sec-1" id="hero">
+      <div>
+        <h1 class="animate">Hi, I'm CoderSultan</h1>
+        <p class="animate">On scroll animation using HTML CSS and Javascript</p>
+      </div>
+    </section>
+
+    <section class="sec-2" id="about">
+      <div>
+        <h1 class="animate">About Me</h1>
+        <p class="animate">On scroll animation using HTML CSS and Javascript</p>
+      </div>
+    </section>
+
+    <section class="sec-3" id="service">
+      <div>
+        <h1>
+          Our Services <span class="showRight-animate" style="--i: 1"></span>
+        </h1>
+        <p>
+          On scroll animation using HTML CSS and Javascript
+          <span class="showRight-animate" style="--i: 2"></span>
+        </p>
+      </div>
+    </section>
+
+    <section class="sec-4" id="review">
+      <div>
+        <h1 class="animate">Client Review</h1>
+        <p class="animate">On scroll animation using HTML CSS and Javascript</p>
+        <img
+          class="animate"
+          src="./accets/media/image/HollowSphere1.gif"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <section class="sec-5" id="project">
+      <h1 class="animate">Our Projecs</h1>
+      <p class="animate">On scroll animation using HTML CSS and Javascript</p>
+      <div class="images">
+        <img
+          class="animate"
+          src="./accets/media/image/car1.jpg"
+          alt=""
+          style="--i: 0"
+        />
+        <img
+          class="animate"
+          src="./accets/media/image/car2.jpg"
+          alt=""
+          style="--i: 1"
+        />
+        <img
+          class="animate"
+          src="./accets/media/image/car3.jpg"
+          alt=""
+          style="--i: 2"
+        />
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer">
+          <p>&copy; 2024 - Designed by <b>CoderSultan</b></p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./src/data.js"></script>
+    <script src="./src/function.js"></script>
+    <script src="./src/model.js"></script>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
